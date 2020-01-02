@@ -22,6 +22,7 @@ function reverseInt(num){
     //math.sign ensures the sign remains afterwards
     // //math.sign(0) = 0 for n= 0
     // //math.sign(-1) = -1 for n < 0
+    //math.sign(-156) = -1 
     // //Math.sign(1) = 1 for n > 0
     //     //apply math.sign to 
      return parseInt(reversed) * Math.sign(num);

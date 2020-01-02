@@ -19,13 +19,14 @@
     
     //loop through the input array
     for(let i = 0; i < inputArray.length; i++){
-        //push the element into the new array whether it is 0 or not
+        //push each element into the new array whether it is 0 or not
        outputArray.push(inputArray[i]);
        //proceed to next test
        if(inputArray[i] === 0){
-           //push the element (if zero) into new array
+           //push the element again (if zero) into new array
            //you can also push a variable holding zero manually 
            outputArray.push(inputArray[i]);
+           //outputArray.push(0);
        }
     } 
     //ensure the output doesn't exceed the length of the original input array

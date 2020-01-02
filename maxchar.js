@@ -12,7 +12,7 @@ be used to:
 */
 
 function maxChar(str){
-    //create character map - empty object to hold character key and values
+    //step 1 - create a character map - empty object to hold character key and values
     const charMap = {};
     //variable to hold the frequency of occurence
     let max = 0;
@@ -20,7 +20,7 @@ function maxChar(str){
     let maxChar = '';
     //loop through the str and use it to build the charMap
     for(let char of str){
-        //if character - charMap[char] - which is the key - already exists in charmap, increment value by 1
+        //if character - (charMap[char] - which is the value, char is the key) - already exists in charmap, increment value by 1
         if(charMap[char]){
             charMap[char]++;
             //char reps 'key'

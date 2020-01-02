@@ -42,7 +42,7 @@
     const bCharMap = buildCharMap(stringB);//creates character map of stringB
 
     //check if both have the same number of keys, helps
-    //to be sure they have the same characters
+    //to be sure they have the same number of characters
     if(Object.keys(aCharMap).length !== Object.keys(bCharMap).length){
         return false;
     }
@@ -75,6 +75,12 @@
          //set value to 1 if it doesn't exist before
          charMap[char] = charMap[char] + 1 || 1;//or 1 of it doesn't exist
 
+        // this is the long form for the above 
+        //  if(charMap[char]){
+        //     charMap[char]++;
+        // }else{
+        //     charMap[char] = 1;
+        // }
      }
 
      return charMap;

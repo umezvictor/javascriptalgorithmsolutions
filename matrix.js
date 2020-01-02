@@ -49,7 +49,7 @@ notice it started with 1 -- refering to our counter
  //since array starts index from 0
  //hence end column and end row will be i n-1
 
- //init variables to hold start/end rows and colums
+ //init variables to hold start/end rows and colums, i.e the index
  let startColumn = 0;
  let endColumn = n - 1;
  let startRow = 0;

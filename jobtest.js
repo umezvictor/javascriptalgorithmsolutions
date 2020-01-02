@@ -14,7 +14,7 @@ function reverseString(str){
     let indexOfSpecialCharacter;
 
     //regular expression for alphabets
-    let letters = /^[A-Za-z]+$/;
+    const letters = /^[A-Za-z]+$/;
 
     //loop through the string
     for(let i = 0; i < str.length; i++){
@@ -29,7 +29,7 @@ function reverseString(str){
              reversed.unshift(str[i]);
         }
     }
-    //variable to hold the new reversed array
+    //variable to hold the new reversed string array
     const rev = reversed;
     //splice method can insert or remove an element from an array
     //add the special character to the reversed array at the exact position it was before

@@ -1,6 +1,9 @@
-function reverseInt(num){
-    const rev = num.toString().split('').reverse().join('');
-    console.log(parseInt(rev) * Math.sign(num));
-    
+function check (str){
+    for(let char of str){
+        if(char === 'a'){
+            console.log(char);
+        }
+        
+    }
 }
-reverseInt(-2340);
+check('appinessah');

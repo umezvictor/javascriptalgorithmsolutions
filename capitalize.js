@@ -51,6 +51,7 @@ function capitalize2(str){
         if(str[i-1] === ' '){
             result += str[i].toUpperCase();
         } else{
+            //append it to the existing word
             result += str[i];
         }
     }
